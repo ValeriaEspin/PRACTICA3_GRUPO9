@@ -91,8 +91,20 @@ TRABAJO GRUPAL - Heart Disease Cleveland UCI DATASET
 
         La angina típica también se presenta principalmente en hombres (40 casos), en comparación con 9 mujeres.
 
-        La angina atípica es poco frecuente en ambos sexos, aunque más en hombres (16) que en mujeres (7).        
+        La angina atípica es poco frecuente en ambos sexos, aunque más en hombres (16) que en mujeres (7).
 
+6. Frecuencia cardíaca vs Edad según condición cardíaca
+
+        Gráfico utilizado: Gráfico de dispersión (scatter plot con agrupación por condición).
+        Este gráfico representa cómo varía la frecuencia cardíaca máxima alcanzada en función de la edad y la presencia de enfermedad cardíaca.
+
+        Se observa que:
+
+        En general, a mayor edad, menor es la frecuencia cardíaca máxima alcanzada, lo cual es consistente con la respuesta fisiológica esperada al ejercicio.
+
+        Las personas sin enfermedad cardíaca (círculos naranjas) tienden a mantener frecuencias más elevadas en edades más bajas.
+
+        Las personas con enfermedad cardíaca (círculos verdes) están más distribuidas hacia frecuencias medias y bajas, especialmente a partir de los 55 años
 
 
 
@@ -107,8 +119,9 @@ TRABAJO GRUPAL - Heart Disease Cleveland UCI DATASET
         4. Las visualizaciones permitieron identificar tendencias importantes, pero también confirmaron que ninguna *variable aislada es completamente determinante, por lo que el diagnóstico de enfermedad cardíaca debe considerar múltiples factores combinados.
 
         5. Este análisis exploratorio sienta las bases para futuros estudios predictivos, modelos de clasificación y sistemas de apoyo al diagnóstico en entornos clínicos.
-
+        
         *Este análisis exploratorio sienta las bases para futuros estudios predictivos, modelos de clasificación y sistemas de apoyo al diagnóstico en entornos clínicos.
 
         *Existe una diferencia evidente en los tipos de dolor torácico reportados según el sexo. Las mujeres tienden a reportar más frecuentemente dolor no anginoso, mientras que los hombres tienen una mayor presencia de síntomas asintomáticos o dolor de tipo angina típica. Estos patrones podrían estar vinculados con diferencias fisiológicas, sociales o de percepción del dolor entre géneros, y resaltan la importancia de una evaluación diferenciada por sexo en diagnósticos cardiovasculares.
 
+        6. Existe una correlación negativa entre edad y frecuencia cardíaca máxima, y este patrón se presenta de forma diferenciada según el estado cardíaco. Las personas con enfermedad cardíaca tienden a mostrar una capacidad reducida para alcanzar frecuencias cardíacas altas, lo que puede reflejar una menor tolerancia al esfuerzo o alteraciones en la función cardiovascular. Este indicador podría ser útil como factor de riesgo o señal de alerta en evaluaciones clínicas.
