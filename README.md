@@ -37,9 +37,9 @@ Limpieza y transformación de los datos
         | `condition`       | `ENFERMEDAD_CORAZON`           |
 
 
-Mapeo de variables categóricas: En el código se documenta el significado de los valores de variables, para asegurar su interpretación.
+    Mapeo de variables categóricas: En el código se documenta el significado de los valores de variables, para asegurar su interpretación.
 
-Estandarización de nombres: Todas las variables se renombraron en mayúsculas y con guiones bajos para uniformidad.
+    Estandarización de nombres: Todas las variables se renombraron en mayúsculas y con guiones bajos para uniformidad.
 
 
 Principales hallazgos del análisis - Gráficos
@@ -47,36 +47,36 @@ Principales hallazgos del análisis - Gráficos
 1. Distribución de edad según presencia de enfermedad cardíaca
     Gráfico utilizado: Violin plot
 
-El análisis muestra que las personas con enfermedad cardíaca tienden a concentrarse en un rango de edad ligeramente mayor (cercano a los 60 años). Aunque existe solapamiento entre los grupos, la distribución de quienes no presentan enfermedad es más dispersa.
+    El análisis muestra que las personas con enfermedad cardíaca tienden a concentrarse en un rango de edad ligeramente mayor (cercano a los 60 años). Aunque existe solapamiento entre los grupos, la distribución de quienes no presentan enfermedad es más dispersa.
 
 2. Condición cardíaca según sexo
     Gráfico utilizado: Gráfico de barras agrupadas (countplot)
 
-Se observó que la presencia de enfermedad cardíaca es mayor en hombres (112 casos) frente a mujeres (25 casos). En el grupo femenino, predomina la ausencia de enfermedad. Esto sugiere una posible relación entre el sexo masculino y la enfermedad cardíaca en este conjunto de datos.
+    Se observó que la presencia de enfermedad cardíaca es mayor en hombres (112 casos) frente a mujeres (25 casos). En el grupo femenino, predomina la ausencia de enfermedad. Esto sugiere una posible relación entre el sexo masculino y la enfermedad cardíaca en este conjunto de datos.
 
 3. Relación entre colesterol y edad según diagnóstico
     Gráfico utilizado: Gráfico de dispersión (scatter plot)
 
-No se detectó una relación clara entre los niveles de colesterol y la edad. Ambos grupos, con y sin enfermedad, presentan una distribución similar. Algunos individuos con colesterol moderado también presentan enfermedad cardíaca.
+    No se detectó una relación clara entre los niveles de colesterol y la edad. Ambos grupos, con y sin enfermedad, presentan una distribución similar. Algunos individuos con colesterol moderado también presentan enfermedad cardíaca.
 
 ***Hallazgo clave: El colesterol no discrimina efectivamente entre pacientes sanos y enfermos.
 
 4. Mapa de correlación entre variables fisiológicas
     Gráfico utilizado: Heatmap (mapa de calor)
 
-El mapa de calor permitió visualizar la relación entre cinco variables fisiológicas: edad, presión sanguínea, colesterol, frecuencia cardíaca máxima y cambios en el segmento ST inducidos por ejercicio. Se analizaron los coeficientes de correlación de Pearson, que varían entre –1 (relación inversa perfecta) y +1 (relación directa perfecta).
+    El mapa de calor permitió visualizar la relación entre cinco variables fisiológicas: edad, presión sanguínea, colesterol, frecuencia cardíaca máxima y cambios en el segmento ST inducidos por ejercicio. Se analizaron los coeficientes de correlación de Pearson, que varían entre –1 (relación inversa perfecta) y +1 (relación directa perfecta).
 
-Interpretación de las principales correlaciones:
+    Interpretación de las principales correlaciones:
 
-    Edad y frecuencia cardíaca máxima: correlación negativa moderada (–0.39). Esto indica que, a mayor edad, las personas tienden a alcanzar frecuencias cardíacas máximas más bajas, lo cual es fisiológicamente esperable.
+        Edad y frecuencia cardíaca máxima: correlación negativa moderada (–0.39). Esto indica que, a mayor edad, las personas tienden a alcanzar frecuencias cardíacas máximas más bajas, lo cual es fisiológicamente esperable.
 
-    Frecuencia cardíaca máxima y cambios en el ST: correlación negativa (–0.35). Es decir, quienes alcanzan mayor frecuencia cardíaca durante el ejercicio tienden a presentar menor depresión del segmento ST, lo que puede asociarse a un mejor estado cardiovascular.
+        Frecuencia cardíaca máxima y cambios en el ST: correlación negativa (–0.35). Es decir, quienes alcanzan mayor frecuencia cardíaca durante el ejercicio tienden a presentar menor depresión del segmento ST, lo que puede asociarse a un mejor estado cardiovascular.
 
-    Edad con presión arterial y colesterol: correlaciones positivas débiles (entre 0.19 y 0.25), lo que sugiere que, en este conjunto de datos, el aumento de la edad se asocia ligeramente con valores más altos de estos indicadores, aunque sin fuerza significativa.
+        Edad con presión arterial y colesterol: correlaciones positivas débiles (entre 0.19 y 0.25), lo que sugiere que, en este conjunto de datos, el aumento de la edad se asocia ligeramente con valores más altos de estos indicadores, aunque sin fuerza significativa.
 
-    Colesterol y presión sanguínea: la correlación entre estas variables y el resto fue muy baja (cercana a 0), lo que indica ausencia de relación lineal clara entre ellas en este grupo de personas.
+        Colesterol y presión sanguínea: la correlación entre estas variables y el resto fue muy baja (cercana a 0), lo que indica ausencia de relación lineal clara entre ellas en este grupo de personas.
 
-    ***Hallazgo clave: Las correlaciones más relevantes se dan entre edad, frecuencia cardíaca y respuesta al ejercicio, lo que sugiere que estas variables podrían ser mejores indicadores del riesgo cardiovascular que otras como colesterol o presión sanguínea, al menos dentro de este dataset.
+        ***Hallazgo clave: Las correlaciones más relevantes se dan entre edad, frecuencia cardíaca y respuesta al ejercicio, lo que sugiere que estas variables podrían ser mejores indicadores del riesgo cardiovascular que otras como colesterol o presión sanguínea, al menos dentro de este dataset.
 
 
 
