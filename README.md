@@ -78,6 +78,22 @@ TRABAJO GRUPAL - Heart Disease Cleveland UCI DATASET
 
         ***Hallazgo clave: Las correlaciones más relevantes se dan entre edad, frecuencia cardíaca y respuesta al ejercicio, lo que sugiere que estas variables podrían ser mejores indicadores del riesgo cardiovascular que otras como colesterol o presión sanguínea, al menos dentro de este dataset.
 
+5. Tipo de dolor en el pecho por sexo
+    Gráfico utilizado: Gráfico de barras agrupadas (countplot)
+
+        Este gráfico presenta la distribución de los diferentes tipos de dolor en el pecho según el sexo de los pacientes. Las categorías analizadas fueron: angina típica, angina atípica, dolor no anginoso y condición asintomática.
+
+        Principales observaciones:
+
+        Dolor no anginoso es el más común en mujeres, con 103 casos, superando notablemente a los hombres (39 casos).
+
+        En cambio, los hombres presentan con mayor frecuencia condición asintomática (65 casos), mientras que en mujeres solo se registraron 18.
+
+        La angina típica también se presenta principalmente en hombres (40 casos), en comparación con 9 mujeres.
+
+        La angina atípica es poco frecuente en ambos sexos, aunque más en hombres (16) que en mujeres (7).        
+
+
 
 
 ### Conclusiones
@@ -92,5 +108,7 @@ TRABAJO GRUPAL - Heart Disease Cleveland UCI DATASET
 
         5. Este análisis exploratorio sienta las bases para futuros estudios predictivos, modelos de clasificación y sistemas de apoyo al diagnóstico en entornos clínicos.
 
-        
-main
+        *Este análisis exploratorio sienta las bases para futuros estudios predictivos, modelos de clasificación y sistemas de apoyo al diagnóstico en entornos clínicos.
+
+        *Existe una diferencia evidente en los tipos de dolor torácico reportados según el sexo. Las mujeres tienden a reportar más frecuentemente dolor no anginoso, mientras que los hombres tienen una mayor presencia de síntomas asintomáticos o dolor de tipo angina típica. Estos patrones podrían estar vinculados con diferencias fisiológicas, sociales o de percepción del dolor entre géneros, y resaltan la importancia de una evaluación diferenciada por sexo en diagnósticos cardiovasculares.
+
