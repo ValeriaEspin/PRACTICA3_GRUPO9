@@ -1,6 +1,10 @@
 # PRACTICA3_GRUPO9
 TRABAJO GRUPAL - Heart Disease Cleveland UCI DATASET
 
+INFORME GRUPAL
+Database url: https://www.kaggle.com/datasets/cherngs/heart-disease-cleveland-uci
+
+
 
 Análisis de Enfermedad Cardíaca – Dataset Heart Disease Cleveland UCI
 
@@ -91,3 +95,4 @@ Conclusiones
         *Las visualizaciones permitieron identificar tendencias importantes, pero también confirmaron que ninguna *variable aislada es completamente determinante, por lo que el diagnóstico de enfermedad cardíaca debe considerar múltiples factores combinados.
 
         *Este análisis exploratorio sienta las bases para futuros estudios predictivos, modelos de clasificación y sistemas de apoyo al diagnóstico en entornos clínicos.
+main
